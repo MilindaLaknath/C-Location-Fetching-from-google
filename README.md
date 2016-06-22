@@ -1,6 +1,6 @@
-# C-Location-Fetching-from-google
+# C# Location latitude longitude to Address converter.
 
-This application will help fetching Google location api Reverese lookup using Lat and Lang variables.
+This application will help fetching Google location api Reverese lookup using latitude and longitude variables. API endpoint is https://maps.googleapis.com/maps/api/geocode/json
 
 Following return's can be used.
 
