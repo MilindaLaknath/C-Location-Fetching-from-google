@@ -37,9 +37,9 @@ namespace tt
 
             RestResponse<RootObject> response = (RestResponse<RootObject>)clientRest.Execute<RootObject>(clientRequst);
             RootObject x = (RootObject)response.Data;
-            Console.WriteLine(x.results[0].formatted_address);
+            //Console.WriteLine(x.results[0].formatted_address);
 
-            return null;
+            return x.results[0].formatted_address;
         }
 
         
